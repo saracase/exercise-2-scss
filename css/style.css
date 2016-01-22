@@ -1,0 +1,48 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-image: url(../images/underwater.jpg);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.primary-btn {
+  display: block;
+  margin: 0 auto;
+  padding: .5em 1em;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  width: 20%;
+  text-align: center;
+  background-color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'helvetica';
+  font-size: 10em;
+  text-align: center;
+}
+
+.btn i {
+  vertical-align: middle;
+  padding-right: .5em;
+}
+
+.icon-shark {
+  color: #001f3f;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 4em;
+}
