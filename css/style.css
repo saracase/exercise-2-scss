@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .primary-btn {
@@ -38,6 +38,12 @@ a:hover {
 .btn i {
   vertical-align: middle;
   padding-right: .5em;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: #7FDBFF;
 }
 
 .icon-shark {
