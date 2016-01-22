@@ -7,6 +7,13 @@ body {
   background-size: cover;
 }
 
+h1 {
+  color: #fff;
+  font-family: 'helvetica';
+  font-size: 10em;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -26,13 +33,6 @@ a:hover {
   width: 20%;
   text-align: center;
   background-color: #fff;
-}
-
-h1 {
-  color: #fff;
-  font-family: 'helvetica';
-  font-size: 10em;
-  text-align: center;
 }
 
 .btn i {

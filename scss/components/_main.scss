@@ -7,6 +7,13 @@ body {
     background-size: cover;
 }
 
+h1 {
+    color: #fff;
+    font-family: 'helvetica';
+    font-size: 10em;
+    text-align: center;
+}
+
 a{
   text-decoration: none;
   &:hover{
@@ -15,15 +22,7 @@ a{
 }
 
 .primary-btn{
-  @include button(#2980b9);   //⬅︎ When we use the mixin we need to give it a bg-color
-}
-
-
-h1 {
-    color: #fff;
-    font-family: 'helvetica';
-    font-size: 10em;
-    text-align: center;
+  @include button(#fff);
 }
 
 .btn i{
